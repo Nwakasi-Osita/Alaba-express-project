@@ -155,10 +155,6 @@ body{
 
 .image-text a{
 text-decoration: none;
-border: 5px solid red;
-}
-.image-text a:hover{
-  border: 1px solid white;
 }
 
 .image-text h3{
@@ -223,4 +219,147 @@ border: 5px solid red;
     flex: 0 0 calc(33.3% - 1em);
   }
 }
+
+
+/* ##############about us############## */
+
+#about-us {
+  background:#E9E9E9 ;
+}
+
+
+.about-title {
+
+  cursor: pointer;
+}
+
+.about-title-text {
+  font-size: 60px;
+  text-transform: capitalize;
+  color: $header-h2;
+}
+
+
+
+
+
+
+/* ###########about us########## */
+.about-title{
+padding-left: 15px;
+}
+
+.about-details {
+  text-align: center;
+   margin: 20px 0;
+
+}
+
+
+
+
+.about-text p {
+  line-height: 2;
+  width: 75%;
+  margin: 0 auto;
+  font-size: 25px;
+  color: $header-bck;
+}
+
+
+// ######### ALABA CONTACT SECTION ###########
+
+
+#alaba-contact-section {
+  font-size: 25px;
+  background-color: $header-bck;
+  color: $header-h2;
+}
+
+#alaba-contact-section ul{
+  display: flex;
+  font-size: 25px;
+}
+
+
+#alaba-section{
+  color: $header-h2;
+  text-align: center;
+  font-size: 35px;
+  padding-bottom: 3px;
+}
+
+
+// ########## CONTACT US ##############
+#contact {
+background-color: #E9E9E9;
+}
+
+.title {
+  font-size: 60px;
+  color: $header-h2;
+}
+
+.item-info {
+  display: flex;
+  margin: 20px 0;
+  font-size: 30px;
+  color:$header-bck;
+}
+
+.item-info .fa-solid {
+  margin-right: 20px;
+}
+
+form input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  font-size: 25px;
+  padding: 10px;
+  background: transparent;
+  border: none;
+  border-bottom: 4px solid $header-bck;
+  }
+
+form input::placeholder {
+  color: $header-h2;
+
+}
+
+#customer-info a {
+  display: block;
+  padding: 20px;
+  margin-top: 30px;
+  text-decoration: none;
+  font-size: 30px;
+  justify-content: space-between;
+  color: $header-h2;
+  background: $header-bck;
+  transition: background 0s ease;
+  letter-spacing: 20px;
+}
+
+
+@media screen and (min-width:776px) {
+  .contact-center {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  #company-info {
+    flex: 0 0 calc(50% - 10px);
+  }
+
+  #customer-info {
+    flex: 0 0 calc(50% - 10px);
+  }
+
+
+}
+
+
+
+
 

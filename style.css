@@ -135,11 +135,6 @@ body {
 
 .image-text a {
   text-decoration: none;
-  border: 5px solid red;
-}
-
-.image-text a:hover {
-  border: 1px solid white;
 }
 
 .image-text h3 {
@@ -192,5 +187,121 @@ body {
 @media screen and (min-width: 776px) {
   .item {
     flex: 0 0 calc(33.3% - 1em);
+  }
+}
+/* ##############about us############## */
+#about-us {
+  background: #E9E9E9;
+}
+
+.about-title {
+  cursor: pointer;
+}
+
+.about-title-text {
+  font-size: 60px;
+  text-transform: capitalize;
+  color: orange;
+}
+
+/* ###########about us########## */
+.about-title {
+  padding-left: 15px;
+}
+
+.about-details {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.about-text p {
+  line-height: 2;
+  width: 75%;
+  margin: 0 auto;
+  font-size: 25px;
+  color: rgb(5, 5, 77);
+}
+
+#alaba-contact-section {
+  font-size: 25px;
+  background-color: rgb(5, 5, 77);
+  color: orange;
+}
+
+#alaba-contact-section ul {
+  display: flex;
+  font-size: 25px;
+}
+
+#alaba-section {
+  color: orange;
+  text-align: center;
+  font-size: 35px;
+  padding-bottom: 3px;
+}
+
+#contact {
+  background-color: #E9E9E9;
+}
+
+.title {
+  font-size: 60px;
+  color: orange;
+}
+
+.item-info {
+  display: flex;
+  margin: 20px 0;
+  font-size: 30px;
+  color: rgb(5, 5, 77);
+}
+
+.item-info .fa-solid {
+  margin-right: 20px;
+}
+
+form input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  font-size: 25px;
+  padding: 10px;
+  background: transparent;
+  border: none;
+  border-bottom: 4px solid rgb(5, 5, 77);
+}
+
+form input::-moz-placeholder {
+  color: orange;
+}
+
+form input::placeholder {
+  color: orange;
+}
+
+#customer-info a {
+  display: block;
+  padding: 20px;
+  margin-top: 30px;
+  text-decoration: none;
+  font-size: 30px;
+  justify-content: space-between;
+  color: orange;
+  background: rgb(5, 5, 77);
+  transition: background 0s ease;
+  letter-spacing: 20px;
+}
+
+@media screen and (min-width: 776px) {
+  .contact-center {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  #company-info {
+    flex: 0 0 calc(50% - 10px);
+  }
+  #customer-info {
+    flex: 0 0 calc(50% - 10px);
   }
 }
